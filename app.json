@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d4db",
+    "navigationBarTitleText": "我的民宿",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "list": [
+      {
+        "selectedIconPath": "images/iconhouse.png",
+        "iconPath": "images/iconhouse1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/iconpro.png",
+        "iconPath": "images/iconpro1.png",
+        "pagePath": "pages/index/index",
+        "text": "产品"
+      },
+      {
+        "selectedIconPath": "images/iconspeak.png",
+        "iconPath": "images/iconspeak1.png",
+        "pagePath": "pages/index/index",
+        "text": "留言"
+      }
+    ],
+    "color": "#7f8389",
+    "selectedColor": "#00a8f3",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

@@ -1,0 +1,21 @@
+<import src="post-item/post-item-template.wxml"/>
+<view>
+  <swiper class="lunbo" indicator-dots="true" autoplay="true" interval='2000'>
+    <swiper-item>
+      <image src="/images/pg4-1.jpg" class='swiper-image'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/pg4-2.jpg" class='swiper-image'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/pg4-3.jpg" class='swiper-image'></image>
+    </swiper-item>
+  </swiper>
+<block wx:for="{{posts_key}}" wx:for-item="item">
+<!-- template 模板 -->
+<!-- data-postId 自定义属性 -->
+<view catchtap="onPostTap" data-postId="{{item.postId}}">
+<template is="postItem" data="{{...item}}"/>
+</view>
+</block>
+</view>

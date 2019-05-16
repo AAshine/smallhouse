@@ -1,0 +1,13 @@
+<view class='content'>
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view>
+<text class="index-text" bindtap="onTap">打开产品</text>
+</view>

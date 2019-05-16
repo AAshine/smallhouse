@@ -1,0 +1,20 @@
+<!--pages/posts/post-detail/post-detail.wxml-->
+<view class="container">
+  <image class='head-image' src='{{postContent.headImgSrc}}'></image>
+  <image class="audio" src='../../../images/pg4-2.jpg'></image>
+  <view class='author-date'>
+    <image class="avatar" src='{{postContent.avatar}}'></image>
+    <text class="author">{{postContent.author}}</text>
+    <text class='const-text'>发表于</text>
+    <text class="date">{{postContent.dataTime}}</text>
+  </view>
+  <text class="title">{{postContent.title}}</text>
+  <view class="tool">
+    <view class="circle-img">
+      <image catchtap='onCollectionTap' src='../../../images/pg4-2.jpg'></image>
+      <image catchtap='onShareTap' class="share-img" src='../../../images/pg4-3.jpg'></image>
+    </view>
+    <view class='horizon'></view>
+  </view>
+  <text class='detail'>{{postContent.detail}}</text>
+</view>

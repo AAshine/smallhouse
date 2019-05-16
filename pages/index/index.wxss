@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 878911 */
+  src: url('//at.alicdn.com/t/font_878911_pf1iexiiwh.eot');
+  src: url('//at.alicdn.com/t/font_878911_pf1iexiiwh.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_878911_pf1iexiiwh.woff') format('woff'),
+  url('//at.alicdn.com/t/font_878911_pf1iexiiwh.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_878911_pf1iexiiwh.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weibiaoti35:before { content: "\e63d"; }
+
+.icon-home:before { content: "\e6a2"; }
+
+.icon-liuyan:before { content: "\e69f"; }
+
+
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weibiaoti35:before { content: "\e63d"; }
+
+.icon-shouye:before { content: "\e6a2"; }
+
+.icon-liuyan:before { content: "\e69f"; }
+page{
+  font-family: "Micorosoft Yahei";
+}
+.content{
+  min-height: 100%;
+}
+swiper-item image{
+  width: 100%;
+}
+.index-text{
+  color: #000;
+  font-size: 24px;
+}
+
